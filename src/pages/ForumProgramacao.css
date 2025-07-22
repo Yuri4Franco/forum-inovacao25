@@ -3,13 +3,24 @@
   position: relative;
 }
 
-.forum-programacao {
-  padding: 20px;
+.forum-programacao  {
+  padding-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
+.forum-programacao #programacao-titulo{
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+
 
 .bloco-programacao .titulo-bloco {
   font-family: "poppins", sans-serif;

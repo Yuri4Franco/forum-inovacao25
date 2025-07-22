@@ -19,7 +19,11 @@ function ForumProgramacao() {
           ></path>
         </svg>
       </div>
+
       <div className="forum-programacao">
+        <h1 id="programacao-titulo">
+          confira a <span className="destaque break">PROGRAMAÇÃO OFICIAL</span>
+        </h1>
         {programacao.map((diaItem, idx) => (
           <div key={idx} className="dia-bloco">
             <DiaForum

@@ -1,11 +1,11 @@
 .faixa-container {
   width: 100%;
   background-color: #000000; /* cor de fundo */
-  color: var(--laranja); /* ou branco, como preferir */
+  color: rgba(255, 255, 255, 0.589); /* ou branco, como preferir */
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 0.75rem;
-  border-block: 1px solid var(--laranja);
+  z-index: 1000;
 }
 
 .faixa-conteudo {

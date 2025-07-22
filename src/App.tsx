@@ -1,6 +1,4 @@
 import "./App.css";
-import FaixaRolante from "./components/FaixaRolante";
-
 import ForumIngressos from "./pages/ForumIngressos";
 import ForumProgramacao from "./pages/ForumProgramacao";
 import ForumSobre from "./pages/ForumSobre";
@@ -12,7 +10,6 @@ function App() {
   return (
     <>
       <Header />
-      <FaixaRolante />
       <Hero />
       <ForumSobre></ForumSobre>
       <ForumIngressos />
