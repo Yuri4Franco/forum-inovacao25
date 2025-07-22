@@ -1,0 +1,31 @@
+.sobre {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+
+.sobre-titulo {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  color: white;
+  top: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.forum-titulo {
+  position: relative;
+  font-family: "finalsix", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  z-index: 0;
+  color: #fdb92e;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.forum-titulo .break {
+  display: block;
+}

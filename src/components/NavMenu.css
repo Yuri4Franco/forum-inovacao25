@@ -1,0 +1,60 @@
+.item-menu {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu .item-menu:hover {
+  color: var(--laranja);
+  transform: translateY(-3px);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-menu.default {
+  display: none;
+}
+
+.nav-menu.rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 0;
+}
+
+.nav-menu.default.open {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  background-color: var(--azul-background);
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+@media (min-width: 1024px) {
+  .nav-menu.default {
+    display: flex;
+    gap: 30px;
+    margin-right: 5%;
+    justify-content: flex-end;
+    flex-direction: row;
+    top: 0;
+    left: auto;
+    position: relative;
+  }
+
+  .item-menu {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .nav-menu.rodape {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    margin: 0;
+  }
+}

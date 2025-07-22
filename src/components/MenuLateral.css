@@ -1,0 +1,77 @@
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--azul-background);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.menu-lateral.open {
+  right: 0;
+}
+
+.logo-menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.logo-menu img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-links a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+  font-size: 1.125rem;
+  padding: 0.5rem 0;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-links a:hover {
+  color: var(--laranja);
+}
+
+.menu-extra {
+  margin-top: auto;
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.como-chegar{
+  color: var(--laranja);
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+/* Esconde o menu no desktop */
+@media (min-width: 1024px) {
+  .menu-lateral,
+  .menu-overlay {
+    display: none;
+  }
+}

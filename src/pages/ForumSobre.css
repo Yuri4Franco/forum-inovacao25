@@ -1,0 +1,315 @@
+.forum-sobre {
+  position: relative;
+  overflow: hidden;
+  background-color: #0c1b34;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+.forum-sobre-container {
+  color: white;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.forum-sobre-container p {
+  font-family: "poppins", sans-serif;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 850px;
+  margin-bottom: 1.5rem;
+  color: #e0e6ed;
+  z-index: 1;
+}
+
+.forum-sobre-container strong {
+  color: var(--laranja);
+}
+
+.bolhas-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Animação */
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+.bolhas-container .bolha {
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 50vmin;
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move;
+  animation-duration: 50;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bolhas-container .bolha:nth-child(0) {
+  color: #0a2770;
+  top: 21%;
+  left: 81%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 4vw 0vh;
+  box-shadow: 100vmin 0 12.533893930998163vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(1) {
+  color: #f2a43751;
+  top: 99%;
+  left: 2%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 21vw -1vh;
+  box-shadow: 100vmin 0 12.787570099886835vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(2) {
+  color: #0a2770;
+  top: 6%;
+  left: 36%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -22vw -10vh;
+  box-shadow: -100vmin 0 12.764121055938972vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(3) {
+  color: #f2a43751;
+  top: 19%;
+  left: 97%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 18vw 24vh;
+  box-shadow: 100vmin 0 12.500829950088809vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(4) {
+  color: #f2a43751;
+  top: 62%;
+  left: 91%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -4vw -2vh;
+  box-shadow: 100vmin 0 12.699941891572996vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(5) {
+  color: #f2a43751;
+  top: 95%;
+  left: 57%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 15vw -6vh;
+  box-shadow: 100vmin 0 12.506657551541478vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(6) {
+  color: #0a2770;
+  top: 6%;
+  left: 92%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 17vw 23vh;
+  box-shadow: -100vmin 0 13.096388306830985vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(7) {
+  color: #f2a43751;
+  top: 97%;
+  left: 83%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -11vw 17vh;
+  box-shadow: 100vmin 0 13.456956314404831vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(8) {
+  color: #f2a43751;
+  top: 98%;
+  left: 33%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -23vw -12vh;
+  box-shadow: 100vmin 0 13.133712877076025vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(9) {
+  color: #f2a43751;
+  top: 10%;
+  left: 68%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 16vw 15vh;
+  box-shadow: -100vmin 0 12.740261700961158vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(10) {
+  color: #0a2770;
+  top: 88%;
+  left: 71%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 13vw 6vh;
+  box-shadow: 100vmin 0 13.348655220638554vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(11) {
+  color: #0a2770;
+  top: 6%;
+  left: 63%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 9vw -8vh;
+  box-shadow: 100vmin 0 13.472626924907237vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(12) {
+  color: #f2a43751;
+  top: 56%;
+  left: 1%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -21vw 4vh;
+  box-shadow: 100vmin 0 13.228165295844144vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(13) {
+  color: #f2a43751;
+  top: 68%;
+  left: 64%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -18vw 1vh;
+  box-shadow: -100vmin 0 13.260622430047178vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(14) {
+  color: #0a2770;
+  top: 81%;
+  left: 42%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -4vw 12vh;
+  box-shadow: -100vmin 0 12.684846520030812vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(15) {
+  color: #f2a43751;
+  top: 83%;
+  left: 46%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -18vw -1vh;
+  box-shadow: 100vmin 0 13.127529020927488vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(16) {
+  color: #0a2770;
+  top: 66%;
+  left: 59%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -6vw 9vh;
+  box-shadow: -100vmin 0 13.042637140310674vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(17) {
+  color: #0a2770;
+  top: 29%;
+  left: 78%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 11vw -10vh;
+  box-shadow: -100vmin 0 12.937234708203885vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(18) {
+  color: #0a2770;
+  top: 51%;
+  left: 69%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -4vw -23vh;
+  box-shadow: -100vmin 0 12.60294121253027vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(19) {
+  color: #f2a43751;
+  top: 37%;
+  left: 25%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: -13vw -5vh;
+  box-shadow: 100vmin 0 13.00016246666354vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(20) {
+  color: #f2a43751;
+  top: 9%;
+  left: 29%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 18vw -16vh;
+  box-shadow: -100vmin 0 13.451302294519538vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(21) {
+  color: #f2a43751;
+  top: 29%;
+  left: 24%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 2vw 14vh;
+  box-shadow: -100vmin 0 12.784055711185221vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(22) {
+  color: #0a2770;
+  top: 70%;
+  left: 37%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 13vw 17vh;
+  box-shadow: 100vmin 0 13.283883767962086vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(23) {
+  color: #f2a43751;
+  top: 47%;
+  left: 46%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 0vw -22vh;
+  box-shadow: -100vmin 0 12.902115352955246vmin currentColor;
+}
+.bolhas-container .bolha:nth-child(24) {
+  color: #0a2770;
+  top: 92%;
+  left: 95%;
+  animation-duration: 6s;
+  animation-delay: -1s;
+  transform-origin: 22vw -23vh;
+  box-shadow: -100vmin 0 13.45878578621981vmin currentColor;
+}
+
+.custom-shape-divider-bottom-1753186761 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1753186761 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-bottom-1753186761 .shape-fill {
+  fill: #f2a337;
+}
+@media (min-width: 1024px) {
+  .forum-sobre-container {
+    width: 80%;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-self: center;
+  }
+}

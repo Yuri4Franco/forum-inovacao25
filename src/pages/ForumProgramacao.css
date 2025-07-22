@@ -1,0 +1,21 @@
+.programacao {
+  background-color: var(--azul-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+
+.forum-programacao {
+  padding: 20px;
+}
+
+.bloco-programacao .titulo-bloco{
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-top: 20px;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}

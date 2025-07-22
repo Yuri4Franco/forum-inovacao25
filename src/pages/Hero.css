@@ -1,0 +1,175 @@
+.hero {
+  justify-content: space-between;
+  background-color: var(--azul-background);
+  background-image: url("../assets/background/background-1.png");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 10px solid var(--laranja);
+}
+
+.hero-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.hero-logo img {
+  width: 300px;
+}
+
+.hero-logo h2 {
+  font-family: "finalsix", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--laranja);
+  margin: 0;
+}
+
+.hero-logo h2 strong {
+  font-weight: 900;
+  font-size: 2.2rem;
+  color: var(--laranja);
+  margin: 0 0.2rem;
+}
+
+.hero-logo p {
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.hero-ingressos {
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  margin: 0 auto 2rem;
+  max-width: 420px;
+}
+
+.hero-ingressos span {
+  align-self: start;
+  top: 25px;
+  position: relative;
+  display: inline-block;
+  background-color: #f2a337;
+  color: var(--azul-background);
+  padding: 0.3rem 0.7rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  transform: rotate(-30deg);
+}
+
+.hero-ingressos h2 {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  line-height: 0.8;
+}
+
+.hero-call {
+  margin-top: 5rem;
+  font-family: "poppins", sans-serif;
+}
+
+.hero-call h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  line-height: 0.8;
+}
+
+.hero-call h2 svg {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.hero-call a {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f2a337;
+  padding: 0.8rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hero-call a:hover {
+  background-color: #ffa800;
+  transform: scale(1.05);
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-image: url("../assets/background/background-2.png");
+    background-size: cover;
+  }
+
+  .hero-logo {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hero-logo img {
+    width: 350px;
+  }
+
+  .hero-logo h2 {
+    font-size: 2rem;
+  }
+
+  .hero-logo p {
+    width: 60%;
+  }
+
+  .hero-logo h2 strong {
+    font-size: 3rem;
+  }
+
+  .hero-ingressos {
+    padding: 2rem 3rem;
+  }
+
+  .hero-ingressos span {
+    top: 30px;
+    right: 40px;
+    font-size: 1.2rem;
+  }
+
+  .hero-ingressos h2 {
+    font-size: 6rem;
+  }
+}

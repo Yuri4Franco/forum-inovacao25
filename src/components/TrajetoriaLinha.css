@@ -1,0 +1,26 @@
+.trajetoria-linha {
+  padding: 20px;
+}
+
+.linha {
+  position: relative;
+  width: 4px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: var(--laranja);
+}
+
+/* Variante com círculo */
+.linha.com-circulo::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  border: 4px solid var(--laranja);
+  border-radius: 50%;
+  background-color: transparent;
+}
+
