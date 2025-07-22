@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   background-color: var(--azul-background);
   width: 100vw;
   min-height: 43rem;
@@ -9,6 +10,7 @@
   justify-items: center;
   padding: 3.125rem;
   gap: 3.125rem;
+  box-shadow: 0 -2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .logo-footer {
@@ -87,6 +89,10 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
+.footer-copy a{
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .footer-copy a:hover {
   color: white;
   text-decoration: underline;
@@ -94,11 +100,11 @@
 
 @media (min-width: 1024px) {
   .footer {
-    min-height: 33rem;
+    min-height: 30rem;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 100px;
+    padding: 100px 5rem 1rem 5rem;
   }
 
   .footer-social {
@@ -136,5 +142,20 @@
 
   .footer-cta a {
     font-size: 1.2rem;
+  }
+
+  .footer-copy {
+    align-self: center;
+
+    font-size: 1.2rem;
+
+    /* Esta é a linha importante */
+    grid-column: 1 / -1;
+
+    /* Garantir centralização e estilo */
+    justify-content: center;
+    text-align: center;
+
+    place-self: end center;
   }
 }

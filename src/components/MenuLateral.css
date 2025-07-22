@@ -68,6 +68,11 @@
   display: inline-block;
 }
 
+.como-chegar a{
+  color: var(--laranja);
+}
+
+
 /* Esconde o menu no desktop */
 @media (min-width: 1024px) {
   .menu-lateral,

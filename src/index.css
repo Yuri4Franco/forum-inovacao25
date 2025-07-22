@@ -16,6 +16,14 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
+}
+
+#ingressos {
+  scroll-margin-top: 100px;
 }

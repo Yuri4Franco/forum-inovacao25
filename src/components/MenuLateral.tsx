@@ -10,7 +10,6 @@ interface MenuLateralProps {
 }
 
 function MenuLateral({ isOpen, onClose }: MenuLateralProps) {
-
   return (
     <>
       <div className={`menu-lateral ${isOpen ? "open" : ""}`}>
@@ -25,10 +24,20 @@ function MenuLateral({ isOpen, onClose }: MenuLateralProps) {
         </div>
 
         <div className="como-chegar">
-          <a> <TbMapPinFilled />COMO CHEGAR AO EVENTO?</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://maps.app.goo.gl/8bKbfMAwewcxAyc9A"
+          >
+            <TbMapPinFilled />
+            COMO CHEGAR AO EVENTO?
+          </a>
         </div>
 
-        <ButtonLaranja text="GARANTA SEU INGRESSO" link="/#ingressos" />
+        <ButtonLaranja
+          link="https://www.sympla.com.br/evento/3-forum-de-inovacao/3042419"
+          text="GARANTA SEU INGRESSO"
+        />
       </div>
 
       {isOpen && <div className="menu-overlay" onClick={onClose}></div>}

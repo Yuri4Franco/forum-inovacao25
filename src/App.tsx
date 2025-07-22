@@ -1,21 +1,13 @@
-import "./App.css";
-import ForumIngressos from "./pages/ForumIngressos";
-import ForumProgramacao from "./pages/ForumProgramacao";
-import ForumSobre from "./pages/ForumSobre";
-import Hero from "./pages/Hero";
-import Footer from "./templates/Footer";
-import Header from "./templates/Header";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <ForumSobre></ForumSobre>
-      <ForumIngressos />
-      <ForumProgramacao></ForumProgramacao>
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/privacidade" element={<PoliticaDePrivacidade />} />
+    </Routes>
   );
 }
 

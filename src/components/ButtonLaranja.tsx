@@ -13,7 +13,7 @@ function ButtonLaranja({
 }: ButtonLaranjaProps) {
   const className = onlyDesktop ? "bt-laranja only-desktop" : "bt-laranja";
   return (
-    <a href={link} className={className}>
+    <a target="_blank" rel="noreferrer" href={link} className={className}>
       {text}
     </a>
   );

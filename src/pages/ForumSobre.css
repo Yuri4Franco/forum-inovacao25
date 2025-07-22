@@ -284,24 +284,26 @@
   box-shadow: -100vmin 0 13.45878578621981vmin currentColor;
 }
 
-.custom-shape-divider-bottom-1753186761 {
+.custom-shape-divider-bottom-1753207001 {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1753186761 svg {
+.custom-shape-divider-bottom-1753207001 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 75px;
+  height: 80px;
+  transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1753186761 .shape-fill {
-  fill: #f2a337;
+.custom-shape-divider-bottom-1753207001 .shape-fill {
+  fill: var(--laranja);
 }
 @media (min-width: 1024px) {
   .forum-sobre-container {

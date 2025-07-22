@@ -3,7 +3,7 @@ import "./ForumIngressos.css";
 
 function ForumIngressos() {
   return (
-    <section className="forum-ingressos">
+    <section id="ingressos" className="forum-ingressos">
       <div className="pagina-ingressos">
         <div className="ingresso-texto">
           <h1>Garanta o seu lugar na 3ª Edição do Fórum de Inovação!</h1>
@@ -34,7 +34,17 @@ function ForumIngressos() {
           </ul>
 
           <div className="comprar-box">
-            <button className="botao-comprar">COMPRAR AGORA</button>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://www.sympla.com.br/evento/3-forum-de-inovacao/3042419",
+                  "_blank"
+                )
+              }
+              className="botao-comprar"
+            >
+              COMPRAR AGORA
+            </button>
             <p className="sympla">
               Ao clicar em 'COMPRAR AGORA" você será direcionado para a
               plataforma Sympla.
@@ -60,7 +70,17 @@ function ForumIngressos() {
           </ul>
 
           <div className="comprar-box">
-            <button className="botao-comprar">COMPRAR AGORA</button>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://www.sympla.com.br/evento/3-forum-de-inovacao/3042419",
+                  "_blank"
+                )
+              }
+              className="botao-comprar"
+            >
+              COMPRAR AGORA
+            </button>
             <p className="sympla">
               Ao clicar em 'COMPRAR AGORA" você será direcionado para a
               plataforma Sympla.

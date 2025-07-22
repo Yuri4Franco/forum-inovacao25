@@ -3,15 +3,19 @@
   position: relative;
 }
 
-.forum-programacao  {
-  padding-top: 5rem;
+.forum-programacao {
+  padding: 10rem 2rem 0 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.forum-programacao #programacao-titulo{
+.forum-programacao .destaque {
+  font-size: 2.5rem;
+}
+
+.forum-programacao #programacao-titulo {
   font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
@@ -20,7 +24,6 @@
   color: white;
   text-align: center;
 }
-
 
 .bloco-programacao .titulo-bloco {
   font-family: "poppins", sans-serif;
@@ -32,23 +35,24 @@
   text-align: center;
 }
 
-.custom-shape-divider-top-1753203812 {
+.custom-shape-divider-top-1753206874 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1753203812 svg {
+.custom-shape-divider-top-1753206874 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 90px;
+  height: 80px;
+  transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1753203812 .shape-fill {
-  fill: #f2a337;
+.custom-shape-divider-top-1753206874 .shape-fill {
+  fill: var(--laranja);
 }
+

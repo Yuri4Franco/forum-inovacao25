@@ -25,7 +25,7 @@ function Hero() {
           <h2>
             <BsPinMapFill /> Afucopal - Panambi/RS
           </h2>
-          <a>GARANTA SEU INGRESSO</a>
+          <a target="_blank" rel="noreferrer" href="https://www.sympla.com.br/evento/3-forum-de-inovacao/3042419" >GARANTA SEU INGRESSO</a>
         </div>
       </div>
     </div>

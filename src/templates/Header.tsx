@@ -16,7 +16,7 @@ function Header() {
         <ToggleMenu />
         <ButtonLaranja
           text="GARANTA SEU INGRESSO"
-          link="/#ingressos"
+          link="https://www.sympla.com.br/evento/3-forum-de-inovacao/3042419"
           onlyDesktop={true}
         />
       </div>
