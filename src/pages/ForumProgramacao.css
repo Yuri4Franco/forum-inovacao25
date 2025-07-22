@@ -1,21 +1,43 @@
 .programacao {
   background-color: var(--azul-background);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column
+  position: relative;
 }
 
 .forum-programacao {
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.bloco-programacao .titulo-bloco{
-  font-family: 'poppins', sans-serif;
+.bloco-programacao .titulo-bloco {
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
   padding-top: 20px;
   margin-bottom: 1rem;
   color: white;
   text-align: center;
+}
+
+.custom-shape-divider-top-1753203812 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1753203812 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape-divider-top-1753203812 .shape-fill {
+  fill: #f2a337;
 }
