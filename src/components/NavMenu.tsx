@@ -16,7 +16,6 @@ function NavMenu({
     { path: "/#sobre", label: "SOBRE O FÓRUM" },
     { path: "/#programacao", label: "PROGRAMAÇÃO" },
     { path: "/#ingressos", label: "INGRESSOS" },
-    { path: "/#contato", label: "CONTATO" },
   ];
 
   return (
