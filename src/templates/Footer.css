@@ -106,6 +106,15 @@
   text-decoration: underline;
 }
 
+.footer-copy {
+  align-self: center;
+  font-size: 1rem;
+  grid-column: 1 / -1;
+  justify-content: center;
+  text-align: center;
+  place-self: end center;
+}
+
 @media (min-width: 1024px) {
   .footer {
     min-height: 30rem;
@@ -150,15 +159,6 @@
 
   .footer-cta a {
     font-size: 1rem;
-  }
-
-  .footer-copy {
-    align-self: center;
-    font-size: 1.2rem;
-    grid-column: 1 / -1;
-    justify-content: center;
-    text-align: center;
-    place-self: end center;
   }
 }
 
