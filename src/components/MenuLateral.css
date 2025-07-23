@@ -18,8 +18,16 @@
   right: 0;
 }
 
-.logo-menu {
+.menu-logo {
   width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-menu {
+  width: 60%;
   height: auto;
   display: flex;
   align-items: center;
@@ -58,7 +66,7 @@
   z-index: 999;
 }
 
-.como-chegar{
+.como-chegar {
   color: var(--laranja);
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -68,15 +76,29 @@
   display: inline-block;
 }
 
-.como-chegar a{
+.como-chegar a {
   color: var(--laranja);
 }
-
 
 /* Esconde o menu no desktop */
 @media (min-width: 1024px) {
   .menu-lateral,
   .menu-overlay {
     display: none;
+  }
+}
+
+@media (min-width: 730px) and (max-width: 1023px) {
+  .logo-menu {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .logo-menu img {
+    width: 100%;
+    height: auto;
   }
 }

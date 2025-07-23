@@ -45,7 +45,9 @@
 }
 
 .hero-ingressos {
+  position: relative;
   font-family: "Bebas Neue", sans-serif;
+  width: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,19 +59,19 @@
 }
 
 .hero-ingressos span {
-  align-self: start;
-  top: 25px;
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  place-self: start;
+  top: 0.8rem;
+  left: 0.8rem;
   background-color: #f2a337;
   color: var(--azul-background);
   padding: 0.3rem 0.7rem;
   border-radius: 10px;
   font-weight: 700;
   font-size: 1rem;
-  margin-bottom: 0.75rem;
   text-transform: uppercase;
   transform: rotate(-30deg);
+  z-index: 10;
 }
 
 .hero-ingressos h2 {
@@ -111,8 +113,8 @@
 }
 
 .hero-call a:hover {
-  background-color: #ffa800;
-  transform: scale(1.05);
+  background-color: #ff9232;
+  transform: scale(1.15);
 }
 
 @keyframes pop {
@@ -164,8 +166,6 @@
   }
 
   .hero-ingressos span {
-    top: 30px;
-    right: 40px;
     font-size: 1.2rem;
   }
 

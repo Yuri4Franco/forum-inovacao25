@@ -12,9 +12,17 @@
   gap: 3.125rem;
   box-shadow: 0 -2px 5px 5px rgba(0, 0, 0, 0.2);
 }
+.footer-social {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
 
 .logo-footer {
-  width: 100%;
+  width: 70%;
   height: auto;
   display: flex;
   align-items: center;
@@ -89,7 +97,7 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
-.footer-copy a{
+.footer-copy a {
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -141,21 +149,21 @@
   }
 
   .footer-cta a {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .footer-copy {
     align-self: center;
-
     font-size: 1.2rem;
-
-    /* Esta é a linha importante */
     grid-column: 1 / -1;
-
-    /* Garantir centralização e estilo */
     justify-content: center;
     text-align: center;
-
     place-self: end center;
+  }
+}
+
+@media (min-width: 730px) and (max-width: 1023px) {
+  .logo-footer {
+    width: 50%;
   }
 }

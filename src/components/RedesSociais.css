@@ -15,8 +15,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  max-height: 100%;
+  max-width: 100%;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 3.125rem;
@@ -29,8 +29,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 70%;
+  height: 70%;
   font-size: 1.563rem;
   color: #ffffff;
   border-radius: 3.125rem;
