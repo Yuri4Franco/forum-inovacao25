@@ -1,6 +1,6 @@
+import SliderReact from "../components/SliderReact";
 import Sobre from "../components/Sobre";
 import "./ForumSobre.css";
-import NossaTrajetoria from "./NossaTrajetoria";
 
 function ForumSobre() {
   return (
@@ -65,7 +65,7 @@ function ForumSobre() {
           </p>
         </div>
       </div>
-      <NossaTrajetoria />
+      <SliderReact />
       <div className="custom-shape-divider-bottom-1753207001">
         <svg
           data-name="Layer 1"

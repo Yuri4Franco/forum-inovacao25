@@ -1,0 +1,21 @@
+.slider-react-container {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.slick-dots li button:before {
+  color: #f2a337; /* cor das bolinhas */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white; /* cor das setas */
+}
