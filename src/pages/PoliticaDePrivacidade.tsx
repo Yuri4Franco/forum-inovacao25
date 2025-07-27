@@ -90,7 +90,6 @@ function PoliticaDePrivacidade() {
             contato@institutoagregar.com.br
           </a>
           <br />
-          📍 Endereço da sua organização
         </p>
       </div>
     </section>
