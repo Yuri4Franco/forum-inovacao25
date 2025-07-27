@@ -4,13 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 0;
 }
 .politica-container {
-  max-width: 80%;
-  padding: 5rem;
+  max-width: 95%;
+  padding: 1rem;
   background-color: var(--azul-background);
-  border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   font-family: "Poppins", sans-serif;
   color: #ffffff;
@@ -30,6 +29,7 @@
   text-align: center;
   margin-bottom: 1.5rem;
   color: #f2a337;
+  line-height: normal;
 }
 
 .politica-container h2 {
@@ -74,5 +74,18 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+@media (min-width: 1024px) {
+.politica-de-privacidade{
+  padding: 5rem;
+}
+
+  .politica-container {
+    max-width: 100%;
+    border-radius: 16px;
+    padding: 5rem;
   }
 }
