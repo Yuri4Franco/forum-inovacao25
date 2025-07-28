@@ -2,6 +2,7 @@
   width: 100vw;
   height: auto;
   overflow: hidden;
+  cursor: grab;
 }
 
 .slick-slide {
@@ -9,15 +10,6 @@
   justify-content: center;
   align-items: center;
   height: auto;
-}
-
-.slick-dots li button:before {
-  color: #f2a337; /* cor das bolinhas */
-}
-
-.slick-prev:before,
-.slick-next:before {
-  color: white; /* cor das setas */
 }
 
 .timeline-capa {
@@ -98,6 +90,7 @@
   text-align: center;
   padding: 2rem;
   gap: 1rem;
+  font-family: 'poppins', sans-serif; ;
 }
 
 .slider-fim h1 {

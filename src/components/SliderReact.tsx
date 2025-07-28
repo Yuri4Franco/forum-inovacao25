@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { trajetoria } from "../consts/Trajetoria";
 import TimeLineForum from "./TimeLineForum";
 
+
 function SliderReact() {
   const settings = {
     dots: true,
@@ -42,7 +43,7 @@ function SliderReact() {
           <h1>
             Em 2025, chega a <span>terceira edição</span> do Fórum de Inovação.
             <br />
-            Nosso maior e mais impactante encontro até agora.
+            Este será o nosso maior e mais impactante encontro até agora.
             <br />
             <strong>Venha hackear o futuro com a gente!</strong>
           </h1>
