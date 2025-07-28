@@ -38,8 +38,15 @@ function SliderReact() {
             <TimeLineForum item={item} />
           </div>
         ))}
-
-        {/* <div className="slider-fim"></div> */}
+        <div className="slider-fim">
+          <h1>
+            Em 2025, chega a <span>terceira edição</span> do Fórum de Inovação.
+            <br />
+            Nosso maior e mais impactante encontro até agora.
+            <br />
+            <strong>Venha hackear o futuro com a gente!</strong>
+          </h1>
+        </div>
       </Slider>
     </div>
   );
