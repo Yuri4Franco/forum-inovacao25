@@ -16,12 +16,10 @@
 
 .forum-titulo {
   position: relative;
-  font-family: "finalsix", sans-serif;
+  font-family: "finalsix-heavy";
   font-size: 4rem;
-  font-weight: 800;
   z-index: 0;
   color: #fdb92e;
-  letter-spacing: -0.05em;
   line-height: 1;
   margin-bottom: 20px;
 }

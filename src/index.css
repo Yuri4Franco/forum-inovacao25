@@ -3,6 +3,60 @@
   --azul-background: #0a2770;
 }
 
+@font-face {
+  font-family: "FinalSix-Hairline";
+  src: url("./fonts/FinalSix_Hairline.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-Thin";
+  src: url("./fonts/FinalSix_Thin.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-Light";
+  src: url("./fonts/FinalSix_Light.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-Book";
+  src: url("./fonts/FinalSix_Book.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-Medium";
+  src: url("./fonts/FinalSix_Medium.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-Bold";
+  src: url("./fonts/FinalSix_Bold.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-ExtraBold";
+  src: url("./fonts/FinalSix_ExtraBold.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-Heavy";
+  src: url("./fonts/FinalSix_Heavy.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FinalSix-Black";
+  src: url("./fonts/FinalSix_Black.woff2") format("woff2");
+  font-weight: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,5 +81,3 @@ a {
 #ingressos {
   scroll-margin-top: 100px;
 }
-
-
