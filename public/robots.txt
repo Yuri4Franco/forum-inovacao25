@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+https://www.forumdeinovacao25.com.br/sitemap.xml
