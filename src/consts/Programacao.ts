@@ -10,15 +10,6 @@ export const programacao = [
         nome: "",
         horarios: [
           {
-            horario: "08h00 – 12h00",
-            palcos: [
-              {
-                titulo: "Visita técnica e rodada de negócio",
-                descricao: "",
-              },
-            ],
-          },
-          {
             horario: "13h30 – 14h00",
             palcos: [
               {
@@ -28,7 +19,7 @@ export const programacao = [
             ],
           },
           {
-            horario: "14h00 – 17h00",
+            horario: "13h00 – 17h00",
             palcos: [
               {
                 titulo: "Exposição das empresas",
