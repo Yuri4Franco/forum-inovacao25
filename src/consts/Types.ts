@@ -13,3 +13,18 @@ export interface TrajetoriaItem {
   chamada?: string;
   fotos: string[];
 }
+
+export interface Palestrante {
+  nome: string;
+  cargo: string;
+  empresa?: string;
+  descricao?: string;
+  foto: string;
+  painel?: string;
+  palcoDescricao?: string;
+  bloco?: string;
+  horario?: string;
+  dia: string;
+  mes: string;
+  diaDaSemana: string;
+}

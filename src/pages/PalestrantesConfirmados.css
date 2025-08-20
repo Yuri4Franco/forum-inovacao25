@@ -1,0 +1,40 @@
+.palestrantes-section {
+  padding: 5%;
+  background-color: var(--azul-background);
+}
+
+.palestrantes-section .palestrantes-titulo{
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-family: 'poppins', sans-serif;
+}
+
+.palestrantes-section .palestrantes-titulo span{
+  color: var(--laranja);
+  font-size: 2rem;
+  font-family: 'finalsix', sans-serif;
+}
+
+.palestrantes-grid {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+
+
+@media (min-width: 1024px) {
+  .palestrantes-grid {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,325 @@
+/* ========= ModalPalestrante.css ========= */
+:root {
+  --modalp-radius: 12px;
+  --modalp-gap: 16px;
+  --modalp-pad: 20px;
+  --modalp-maxw: 1000px;
+  --modalp-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
+
+  /* Cores base (ajuste pro teu tema) */
+  --modalp-bg: var(--azul-background);
+  --modalp-backdrop: rgba(0, 0, 0, 0.751);
+  --modalp-muted: var(--azul-background);
+  --modalp-border: #00000000;
+  --modalp-chip-bg: var(--azul-background);
+}
+
+.modalp-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  isolation: isolate;
+}
+
+.modalp-backdrop {
+  position: absolute;
+  inset: 0;
+  background: var(--modalp-backdrop);
+  opacity: 0;
+  animation: modalp-fade 0.18s ease-out forwards;
+}
+
+.modalp-container {
+  position: relative;
+  display: flex;
+  margin: 12px;
+  background: var(--modalp-bg);
+  border-radius: var(--modalp-radius);
+  max-height: calc(100vh - 24px);
+  overflow: auto;
+  box-shadow: var(--modalp-shadow);
+  transform: translateY(10px) scale(0.98);
+  opacity: 0;
+  animation: modalp-pop 0.22s ease-out forwards;
+}
+
+/* Botão X */
+.modalp-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  float: right;
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background: transparent;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.12s ease, background-color 0.12s ease;
+}
+
+.modalp-close:hover {
+  color: var(--laranja);
+  transform: scale(1.25);
+}
+
+.modalp-close:active {
+  transform: scale(0.98);
+}
+
+/* Grid base (mobile: empilhado) */
+.modalp-grid {
+  display: grid;
+  gap: var(--modalp-gap);
+  padding: var(--modalp-pad);
+}
+
+/* FOTO */
+.modalp-col-foto .modalp-foto-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.modalp-foto {
+  width: 100%;
+  height: auto;
+  display: block;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 65%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 65%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* Cabeçalho */
+.modalp-header {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.modalp-nome {
+  margin: 0 0 4px 0;
+  font-family: "finalsix-heavy";
+  line-height: 1.2;
+  font-size: 2rem;
+  color: var(--laranja);
+}
+.modalp-cargo {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  color: var(--modalp-muted);
+  font-size: 0.95rem;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+
+/* Seções */
+.modalp-section-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: white;
+  margin: 16px 0 20px 0;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+.modalp-section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100px;
+  height: 2px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    260deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(255, 149, 0, 0.77) 50%,
+    rgb(255, 162, 0) 100%
+  );
+  box-sizing: border-box;
+}
+
+.modalp-sobre-texto {
+  line-height: 1.6;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: 100;
+}
+
+/* Conecte-se */
+.modalp-socials {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.modalp-social-btn {
+  color: white;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3.125rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.12s ease, background-color 0.12s ease,
+    border-color 0.12s ease;
+}
+.modalp-social-btn:hover {
+  transform: scale(1.15);
+  background-color: var(--laranja);
+}
+.modalp-social-btn:active {
+  transform: translateY(0);
+}
+/* Fórum */
+.modalp-forum-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+.modalp-forum-label {
+  font-weight: 600;
+}
+
+.modalp-dia-forum .dia-forum {
+  padding: 10px;
+}
+
+.modalp-dia-forum .dia {
+  font-size: 6rem;
+}
+
+.modalp-forum-painel-container .bloco {
+  font-family: "poppins", sans-serif;
+  color: white;
+}
+
+.modalp-dia-forum .mes,
+.modalp-dia-forum .dia-da-semana {
+  font-size: 1rem;
+}
+
+.modalp-dia-forum .mes {
+  top: -10px;
+}
+
+.modalp-forum-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Scrollbar leve (webkit) - opcional */
+.modalp-container::-webkit-scrollbar {
+  width: 10px;
+}
+.modalp-container::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 999px;
+}
+
+.modalp-chip {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--modalp-chip-bg);
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.modalp-forum-painel-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 0 15px 0;
+}
+
+.modalp-forum-painel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modalp-forum-painel .hora {
+  width: max-content;
+  min-width: max-content;
+}
+
+.modalp-forum-painel .palco {
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.modalp-forum-horario {
+  display: flex;
+}
+
+/* Desktop: duas colunas e centralizado */
+@media (min-width: 900px) {
+  .modalp-container {
+    width: min(var(--modalp-maxw), 92vw);
+    margin: 40px auto;
+    max-height: calc(100vh - 80px);
+  }
+
+  .modalp-grid {
+    grid-template-columns: 1fr 1.5fr;
+    gap: 24px;
+    padding: 28px;
+  }
+
+  .modalp-col-foto {
+    position: sticky; /* mantém a foto visível ao rolar conteúdo longo */
+    top: 28px;
+    align-self: start;
+    height: fit-content;
+  }
+}
+
+/* Animações (respeita prefers-reduced-motion) */
+@keyframes modalp-fade {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes modalp-pop {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modalp-backdrop,
+  .modalp-container {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* Impressão: não renderiza modal */
+@media print {
+  .modalp-overlay {
+    display: none !important;
+  }
+}
