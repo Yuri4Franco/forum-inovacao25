@@ -27,4 +27,7 @@ export interface Palestrante {
   dia: string;
   mes: string;
   diaDaSemana: string;
+  linkedin?: string;
+  instagram?: string;
+  email?: string;
 }
