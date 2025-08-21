@@ -6,7 +6,7 @@ export default function PalestrantesGrid() {
   return (
     <section className="palestrantes-section">
       <h1 className="palestrantes-titulo">
-        presenças <span>CONFIRMADAS</span>
+        presenças <span className="break">CONFIRMADAS</span>
       </h1>
       <div className="palestrantes-grid">
         {palestrantes.map((p) => (

@@ -17,6 +17,10 @@
   font-family: 'finalsix', sans-serif;
 }
 
+.palestrantes-section .palestrantes-titulo .break{
+  display: block;
+}
+
 .palestrantes-grid {
   padding: 50px;
   display: flex;
