@@ -187,13 +187,7 @@
   transform: translateY(0);
 }
 /* Fórum */
-.modalp-forum-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 8px;
-}
+
 .modalp-forum-label {
   font-weight: 600;
 }
@@ -222,7 +216,8 @@
 
 .modalp-forum-container {
   display: flex;
-  gap: 50px;
+  flex-direction: column;
+  gap: 5px;
   align-items: center;
   justify-content: center;
 }
@@ -247,7 +242,7 @@
 .modalp-forum-painel-container {
   display: flex;
   flex-direction: column;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 15px 0 15px 0;
 }
 
@@ -292,6 +287,21 @@
     top: 28px;
     align-self: start;
     height: fit-content;
+  }
+
+  .modalp-forum-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modalp-forum-painel-container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0 15px 0;
   }
 }
 

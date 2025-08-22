@@ -36,12 +36,14 @@ export const programacao = [
             horario: "14h00 – 15h00",
             palcos: [
               {
-                titulo: "PALCO A | Inteligência em Movimento",
+                titulo:
+                  "PALCO A | Inteligência em Movimento: IA, Dados e Automação",
                 descricao:
                   "Transformações práticas no chão de fábrica com IA, gêmeos digitais, robotização e dados.",
               },
               {
-                titulo: "PALCO B | Inovar com Propósito",
+                titulo:
+                  "PALCO B | Inovar com Propósito: Sustentabilidade e Resiliência Climática",
                 descricao:
                   "Soluções sustentáveis para prevenir desastres, otimizar recursos e inovar com impacto positivo.",
               },
@@ -65,18 +67,28 @@ export const programacao = [
             horario: "15h30 – 16h30",
             palcos: [
               {
-                titulo: "PALCO A | Experiência é Tudo",
+                titulo:
+                  "PALCO A | Marcas que Conectam: O Cliente como Norte para Inovar e Crescer",
                 descricao:
                   "Como criar experiências encantadoras no digital e no físico: o cliente no centro.",
               },
               {
-                titulo: "PALCO B | Rodada de Tecnologias",
+                titulo: "PALCO B | Arena de Tecnologia: Inovação em Ação",
                 descricao: "Empresas fazem a demonstração de tecnologias.",
               },
             ],
           },
           {
-            horario: "16h30 – 17h30",
+            horario: "16h30 – 17h00",
+            palcos: [
+              {
+                titulo: "Educação & Inovação: não existe atalho para o futuro",
+                descricao: "",
+              },
+            ],
+          },
+          {
+            horario: "17h00 – 18h00",
             palcos: [
               {
                 titulo: "Keynote Speaker",
@@ -85,7 +97,7 @@ export const programacao = [
             ],
           },
           {
-            horario: "17h30",
+            horario: "18h00",
             palcos: [
               {
                 titulo: "Happy Hour",
@@ -106,22 +118,33 @@ export const programacao = [
         nome: "BLOCO 2 | RESOLVENDO O AGORA",
         horarios: [
           {
-            horario: "08h00 – 09h15",
+            horario: "08h00 – 09h00",
             palcos: [
               {
-                titulo: "PALCO A | O Agro do Amanhã",
+                titulo: "Inovação na EMBRAER: de tendências a resultados",
+                descricao: "",
+              },
+            ],
+          },
+          {
+            horario: "09h00 – 10h15",
+            palcos: [
+              {
+                titulo:
+                  "PALCO A | O Agro do Amanhã: Eficiência, Sustentabilidade e Conectividade",
                 descricao:
                   "Soluções digitais, conectividade no campo e agricultura regenerativa.",
               },
               {
-                titulo: "PALCO B | Inovação na Prática",
+                titulo:
+                  "PALCO B | Inovação na Prática: Lean, Ágil e Eficiência na Indústria",
                 descricao:
                   "Métodos e ferramentas para inovar com poucos recursos e alto impacto.",
               },
             ],
           },
           {
-            horario: "09h15 – 09h45",
+            horario: "10h15 – 10h45",
             palcos: [
               {
                 titulo: "Intervalo com Experiências e Exposições",
@@ -135,30 +158,19 @@ export const programacao = [
         nome: "BLOCO 3 | TRANSFORMANDO PESSOAS",
         horarios: [
           {
-            horario: "09h45 – 11h00",
+            horario: "10h45 – 12h00",
             palcos: [
               {
-                titulo: "PALCO A | Gente que Transforma",
+                titulo:
+                  "PALCO A | Gente que Transforma: Talentos, RH e Inclusão em Ambientes Inovadores",
                 descricao:
                   "Soluções para recrutamento, formação e engajamento de talentos nos territórios.",
               },
               {
-                titulo: "PALCO B | Empreendendo Fora do Eixo",
+                titulo:
+                  "PALCO B | Empreendendo Fora do Eixo: A Força das Iniciativas Locais",
                 descricao:
                   "Casos de sucesso de startups e empreendedores que inovam fora dos grandes centros.",
-              },
-            ],
-          },
-          {
-            horario: "11h00 – 12h00",
-            palcos: [
-              {
-                titulo: "PALCO A | Arena de Pitchs",
-                descricao: "Indústria e Agro – Soluções em 5 minutos.",
-              },
-              {
-                titulo: "PALCO B | Arena de Pitchs",
-                descricao: "RH, Comércio e Serviços – Soluções em 5 minutos.",
               },
             ],
           },
@@ -171,9 +183,9 @@ export const programacao = [
             horario: "13h30 – 14h30",
             palcos: [
               {
-                titulo: "PALCO A | Decidir com Dados",
-                descricao:
-                  "Transformação de dados em decisões: cases com BI, Big Data e IA.",
+                titulo:
+                  "PALCO A | Energia Verde: Inovação e Sustentabilidade nos Combustíveis do Futuro",
+                descricao: "",
               },
               {
                 titulo: "PALCO B | Cidades Inteligentes, Inclusivas e Digitais",
@@ -195,8 +207,8 @@ export const programacao = [
             horario: "15h00 – 16h00",
             palcos: [
               {
-                titulo: "Visões do Futuro",
-                descricao: "Tendências, Conexões e Novas Economias.",
+                titulo: "Arena de Pitchs",
+                descricao: "Startups e projetos acadêmicos",
               },
             ],
           },
@@ -204,13 +216,23 @@ export const programacao = [
             horario: "16h00 – 17h00",
             palcos: [
               {
-                titulo: "Keynote Speaker",
+                titulo: "Visões do Futuro",
+                descricao: "Tendências, Conexões e Novas Economias.",
+              },
+            ],
+          },
+          {
+            horario: "17h00 – 18h00",
+            palcos: [
+              {
+                titulo:
+                  "As conexões movem o mundo. Um olhar à inovação e desenvolvimento de novos negócios além do barulho da mídia",
                 descricao: "",
               },
             ],
           },
           {
-            horario: "17h00",
+            horario: "18h00",
             palcos: [
               {
                 titulo: "Cerimônia de encerramento",

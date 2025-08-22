@@ -50,3 +50,10 @@
 .palcos-2 .palco {
   flex: 1;
 }
+
+
+@media (min-width: 1024px){
+  .palcos{
+    flex-direction: row;
+  }
+}
