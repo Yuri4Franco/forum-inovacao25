@@ -17,6 +17,9 @@ import FotoGuilhermeNeves from "../assets/palestrantes/guilherme-neves.png";
 import FotoGabrielMarkus from "../assets/palestrantes/gabriel-markus.png";
 import FotoDietmarSukop from "../assets/palestrantes/dietmar-sukop.png";
 import FotoAgustinLopez from "../assets/palestrantes/agustin-lopez.png";
+import FotoSilvioCorrea from "../assets/palestrantes/silvio-correa.png";
+import FotoFernandoFinger from "../assets/palestrantes/fernando-finger.png";
+import FotoCleitonSilva from "../assets/palestrantes/cleiton-silva.png";
 
 import type { Palestrante } from "./Types";
 
@@ -364,6 +367,58 @@ export const palestrantes = [
     linkedin: "https://www.linkedin.com/in/agustin-lopez-munell-517439142/",
     instagram: "",
     email: "",
+  },
+  {
+    nome: "Sílvio Corrêa",
+    cargo: "CEO & Co-Founder",
+    empresa: "Easypro Tecnologia",
+    descricao: "",
+    foto: FotoSilvioCorrea,
+    painel: "Palco B | Arena de Tecnologia:",
+    palcoDescricao: "Inovação em Ação",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA",
+    horario: "15h30 – 16h30",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "https://www.linkedin.com/in/silvio-correa-5b755244/",
+    instagram: "",
+    email: "silvio@easypro.com.br",
+  },
+  {
+    nome: "Fernando Finger",
+    cargo: " Sócio Proprietário e Diretor",
+    empresa: "Tecnofinger Eletrônica e Equipamentos",
+    descricao: "",
+    foto: FotoFernandoFinger,
+    painel: "Palco B | Arena de Tecnologia:",
+    palcoDescricao: "Inovação em Ação",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA",
+    horario: "15h30 – 16h30",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "https://www.linkedin.com/in/fernando-henrique-finger-340441133/",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Cleiton Silva",
+    cargo: " Diretor de Engenharia, Tecnologia & Equipamentos Eletrônicos",
+    empresa: "EMBRAER",
+    descricao:
+      "É engenheiro eletrônico graduado pelo Instituto Tecnológico de Aeronáutica (ITA) em 2002, com distinção summa cum laude. Possui mestrado (2004) e doutorado (2008) em Sistemas e Controle pela mesma instituição, além de MBA em Gestão Estratégica de Pessoas pela FGV (2015) e especialização em Administração Estratégica pela FIA (2025). Desde 2006 atua na Embraer, onde teve papel central no desenvolvimento das leis de controle FBW/AFCS de aeronaves como E1, Phenom 100, Phenom 300, Legacy 500 e C-390. Foi Gerente de Desenvolvimento de Produto do C-390, liderou o desenvolvimento de novos produtos na aviação comercial e, desde 2023, ocupa o cargo de Diretor de Tecnologia e Equipamentos Eletrônicos. Também integra o Conselho Consultivo da ATECH (desde jun/2023) e o Conselho de Administração da VISIONA (desde ago/2024).",
+    foto: FotoCleitonSilva,
+    painel: "Palco A | Inovação na EMBRAER:",
+    palcoDescricao: "de tendências a resultados",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA",
+    horario: "08h00 - 09h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "https://www.linkedin.com/in/cleiton-silva-38611915/",
+    instagram: "",
+    email: "cleitonsilva@gmail.com",
   },
 ];
 
