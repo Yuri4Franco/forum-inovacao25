@@ -20,6 +20,17 @@ import FotoAgustinLopez from "../assets/palestrantes/agustin-lopez.png";
 import FotoSilvioCorrea from "../assets/palestrantes/silvio-correa.png";
 import FotoFernandoFinger from "../assets/palestrantes/fernando-finger.png";
 import FotoCleitonSilva from "../assets/palestrantes/cleiton-silva.png";
+import FotoVaniaVerdasca from "../assets/palestrantes/vania-verdasca.png";
+import FotoRaissaSchorn from "../assets/palestrantes/raissa-schorn.png";
+import FotoMisiaraAlcantara from "../assets/palestrantes/misiara-alcantara.png";
+import FotoGilianeTrost from "../assets/palestrantes/giliane-trost.png";
+import FotoDiegoPiotto from "../assets/palestrantes/diego-piotto.png";
+import FotoLuizDumoncel from "../assets/palestrantes/luiz-dumoncel.png";
+import FotoMarcusRocha from "../assets/palestrantes/marcus-rocha.png";
+import FotoAlexGranjeiro from "../assets/palestrantes/alex-granjeiro.png";
+import FotoAndreLautert from "../assets/palestrantes/andre-lautert.png";
+import FotoFelipeVieira from "../assets/palestrantes/felipe-vieira.png";
+import FotoNicolasRossetto from "../assets/palestrantes/nicolas-rossetto.png";
 
 import type { Palestrante } from "./Types";
 
@@ -419,6 +430,220 @@ export const palestrantes = [
     linkedin: "https://www.linkedin.com/in/cleiton-silva-38611915/",
     instagram: "",
     email: "cleitonsilva@gmail.com",
+  },
+  {
+    nome: "Vânia Verdasca",
+    cargo: "Gerente de Qualidade e Melhoria Contínua",
+    empresa: "KeplerWeber",
+    descricao:
+      "Farmacêutica Industrial, Especialista em Sistemas de Gestão da Qualidade, Black Belt em Lean Seis Sigma, mais de 20 anos de experiência em Qualidade, Produção e Gestão Integrada, com forte atuação em empresas nacionais e multinacionais dos setores farmacêutico, químico, cosmético e agronegócio. Vivência em implantação de sistemas de gestão e melhoria contínua, com domínio de ferramentas Lean, Six Sigma e WCM. Gerente em projetos de licenciamento industrial e certificações (ANVISA, MAPA, ISO, BPF), transferência de site e implantação de sistemas BPMS.",
+    foto: FotoVaniaVerdasca,
+    painel:
+      "Palco B | Inovação na Prática: Lean, Ágil e Eficiência na Indústria",
+    palcoDescricao:
+      "Métodos e ferramentas para inovar com poucos recursos e alto impacto.",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA",
+    horario: "09h00 – 10h15",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/vania-andrade1",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Raíssa Schorn",
+    cargo: "Vice-diretora Nacional",
+    empresa: "Rede Internacional de Promotores dos ODS",
+    descricao:
+      "É cofundadora da Projetou Captação de Recursos,  e atua como vice-diretora nacional da Rede Internacional de Promotores dos ODS (RIPO Brasil). Doutoranda em Desenvolvimento Regional (UNIJUÍ) com estágio de pesquisa em Portugal (UTAD), atua na área de cidades inteligentes e inovação com foco no desenvolvimento urbano e sustentável.",
+    foto: FotoRaissaSchorn,
+    painel:
+      "Palco B | Roda de Conversa | Cidades Inteligentes, Inclusivas e Digitais",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "13h30 – 14h30",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/raíssa-schorn-68b7821b5",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Misiara De Alcântara",
+    cargo: "Diretora de Recursos Humanos",
+    empresa: "3tentos",
+    descricao:
+      "Diretora de Recursos Humanos da 3tentos, Conselheira da ABRH-RS, foi Diretora de Gente&Gestão da Kepler Weber. Formada em administração de Empresas, com especialização em Gestão de Pessoas na FGV e mestre em Administração pela UFRGS.",
+    foto: FotoGilianeTrost,
+    painel:
+      "Palco A | Gente que Transforma: Talentos, RH   e Inclusão em Ambientes Inovadores",
+    palcoDescricao:
+      "Soluções para recrutamento, formação e engajamento de talentos nos territórios.",
+    bloco: "BLOCO 3 | TRANSFORMANDO PESSOAS: Inovação é feita de gente",
+    horario: "10h45 – 12h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/misiara-de-alcântara-b6366025",
+    instagram: "",
+    email: "misiaradealcantara@gmail.com",
+  },
+  {
+    nome: "Giliane Trost",
+    cargo: "CEO",
+    empresa: "Tromink",
+    descricao:
+      "Empresária e sócia da Tromink Industrial Ltda, atua como CEO da companhia, referência na fabricação de equipamentos para unidades armazenadoras de grãos e sistemista de componentes soldados para montadoras agrícolas. Graduada em Administração de Empresas, com MBA em Gestão de Pessoas e Estratégia Empresarial pela FGV e Mestrado em Administração pela UFRGS, iniciou sua trajetória na Tromink em 1993 como auxiliar administrativa e, ao longo de mais de três décadas, acompanhou e impulsionou o crescimento da empresa, consolidando-se como liderança estratégica que hoje está à frente da organização.",
+    foto: FotoMisiaraAlcantara,
+    painel:
+      "Palco B | Empreendendo Fora do Eixo: A Força das Iniciativas Locais",
+    palcoDescricao:
+      "Casos de sucesso de startups e empreendedores que inovam fora dos grandes centros. ",
+    bloco: "BLOCO 3 | TRANSFORMANDO PESSOAS: Inovação é feita de gente",
+    horario: "10h45 – 12h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/giliane-brandt-a12988bb",
+    instagram: "",
+    email: "giliane@tromink.com.br",
+  },
+  {
+    nome: "Diego Piotto",
+    cargo: "Gerente Executivo de Engenharia",
+    empresa: "Soli3",
+    descricao:
+      "Engenheiro eletricista com MBA em gerenciamento de projetos e Mestrado em Finanças pela FGV. Certificação PMP pelo PMI. Com 18 anos de experiência em projetos industriais de grande porte com passagens pela Amaggi, Etamil Bioenergia e Uisa. Experiência em projetos industriais, excelência operacional , lean manufacturing e operações industriais.",
+    foto: FotoDiegoPiotto,
+    painel:
+      "Palco A | Energia Verde: Inovação e Sustentabilidade nos Combustíveis do Futuro",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "13h30 – 14h30",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/diego-piotto-pmp®-msc-3736913b",
+    instagram: "",
+    email: "dpiotto@gmail.com",
+  },
+  {
+    nome: "Luiz Dumoncel",
+    cargo: "Diretor Vice-Presidente de Operações",
+    empresa: "3tentos",
+    descricao:
+      "Graduado em Administração pela PUCRS com Especialização em Gestão de Negócios pela Fundação Dom Cabral. Também participou do Curso Hectare – Gestão e Sucessão Rural promovido Perestroika – POA. Iniciou suas atividades profissionais como estagiário no Banco do Brasil. Após, atuou como trainee na INTL FCStone Inc. (Estados Unidos) no setor de gerenciamento de risco de commodities agrícolas e de importação de café e cacau. Em 2014, ingressou no Programa de Trainee para Sucessores na 3tentos Agroindustrial e foi Gerente de Fertilizantes dentro da empresa entre 2017 e 2020, período em que o setor cresceu 213% em vendas. Ele atuou como Diretor de Commodities entre 2021 e 2025, ano em que assumiu o cargo atual de Diretor Vice-Presidente de Operações (COO).",
+    foto: FotoLuizDumoncel,
+    painel:
+      "Palco A | Energia Verde: Inovação e Sustentabilidade nos Combustíveis do Futuro",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "13h30 – 14h30",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/luiz-dumoncel-2a520079",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Marcus Rocha",
+    cargo: "Diretor de Operações",
+    empresa: "LifesHub",
+    descricao:
+      "É empreendedor, consultor e professor com ampla internacional na gestão estratégica da inovação tecnológica. Conselheiro da Associação Empresarial de Florianópolis (Acif) e do Conselho Municipal de Inovação, é CEO da consultoria ION Ideias On e COO da LifesHub, além de atuar na Coordenação do Programa Florianópolis Cidade Criativa Unesco. De 2017 a 2021 foi Superintendente de Ciência, Tecnologia e Inovação na Prefeitura Municipal de Florianópolis, quando foi responsável pela implantação da pioneira Lei Municipal de Inovação, da Rede Municipal de Centros de Inovação e do Living Lab Florianópolis. Mestre e MBA em Gestão da Inovação, é autor do livro 'Territórios da Inovação', uma obra inédita da literatura corporativa brasileira sobre o desenvolvimento de ecossistemas de inovação.",
+    foto: FotoMarcusRocha,
+    painel:
+      "Palco B | Roda de Conversa | Cidades Inteligentes, Inclusivas e Digitais",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "13h30 – 14h30",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/rochamarcus",
+    instagram: "https://www.instagram.com/marcusroc/",
+    email: "marcusjoserocha@gmail.com",
+  },
+  {
+    nome: "Alex Granjeiro",
+    cargo: "Innovation Partner",
+    empresa: "Claro Brasil",
+    descricao:
+      "É um especialista em inovação do beOn, com um olhar focado em Open Innovation e Transformação Digital. Com profunda expertise em Metodologias Ágeis e Gestão de Projetos, ele se destaca na implantação e desenvolvimento de aceleradoras e programas de aceleração, além de programas de inovação corporativa e intraempreendedorismo.",
+    foto: FotoAlexGranjeiro,
+    painel:
+      "Palco B | Roda de Conversa | Cidades Inteligentes, Inclusivas e Digitais",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "13h30 – 14h30",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/alex-granjeiro-6432b343",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "André Lautert",
+    cargo: "CFO",
+    empresa: "Fockink",
+    descricao:
+      "CFO da Fockink, profissional com 29 anos de experiência atuando em auditoria, consultoria, contabilidade, controladoria, fiscal, recursos humanos, jurídico e TI em empresas nacionais e multinacionais nos segmentos de indústrias, varejo e serviços.",
+    foto: FotoAndreLautert,
+    painel:
+      "Palco A |  Visões do Futuro: Tendências, Conexões e Novas Economias",
+    palcoDescricao:
+      "Debate inspirador com especialistas sobre futuros possíveis, novas economias e o papel da região no cenário global",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "16h00 – 17h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/andre-lautert-48308846",
+    instagram: "",
+    email: "lautertandre@gmail.com",
+  },
+  {
+    nome: "Felipe Vieira",
+    cargo: "Co-founder",
+    empresa: "Raízes Corretora de Seguros",
+    descricao:
+      "Engenheiro florestal pela UFPR, com especialização em marketing pela FGV de SP e MBA executivo pela FAE Business School. Educação executiva em gestão de canais de distribuição pela Kellogg Northwester University Chicago, e Liderança e Negociação pela Harvard Law School e Fusões e Aquisições pela COlumbia de Nova York.20 anos de experiência executiva com cargos de liderança na américa latina nas áreas comercial, marketing, estratégia e gestão de empresa no segmento de máquinas florestais, agrícolas e de construção, com passagem por empresas como John Deere, CNH, Komatsu, Valley e Paraná Equipamentos (Caterpillar). Atualmente sócio da AGROBRAVO enterprises, Socio fundador da Raízes corretora de Seguros e membro do conselho do grupo Grão de Ouro.",
+    foto: FotoFelipeVieira,
+    painel:
+      "Palco A | As conexões movem o mundo. Um olhar à inovação e desenvolvimento de novos negócios além do barulho da mídia",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "17h00 – 18h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "linkedin.com/in/felipe-vieira-565b6b18",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Nicolas Rossetto",
+    cargo: "HEAD of Application Engineering Team",
+    empresa: "SKA",
+    descricao:
+      "Engenheiro Industrial Mecânico com mais de 20 anos de experiência, iniciou sua jornada com as soluções SOLIDWORKS em 2005. Atuou em diferentes segmentos industriais, incluindo engenharia térmica, máquinas e equipamentos e construção civil, com vivência em engenharia reversa, manufatura aditiva (impressão 3D), simulação por elementos finitos e renderização. Na SKA, passou por diversas posições — de suporte técnico e implantação a engenheiro de aplicações — sendo responsável por validações técnicas do SOLIDWORKS junto a clientes de diferentes portes e setores. Já liderou equipes de implantação e engenharia de aplicações e, atualmente, é Head de Comunicação Técnica, conduzindo times focados na criação de conteúdo estratégico para os produtos Dassault Systèmes.",
+    foto: FotoNicolasRossetto,
+    painel:
+      "Palco B | Talks + Roda de Conversa | Inovar com Propósito: Sustentabilidade e Resiliência Climática",
+    palcoDescricao:
+      "Soluções sustentáveis para prevenir desastres, otimizar recursos e inovar com impacto positivo.",
+    bloco: "BLOCO 1 | ENTENDENDO O PRESENTE: O mundo já mudou",
+    horario: "14h00 – 15h00",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "linkedin.com/in/nicolasrossetto",
+    instagram: "",
+    email: "",
   },
 ];
 
