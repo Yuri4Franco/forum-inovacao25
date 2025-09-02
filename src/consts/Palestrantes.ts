@@ -476,7 +476,7 @@ export const palestrantes = [
     empresa: "3tentos",
     descricao:
       "Diretora de Recursos Humanos da 3tentos, Conselheira da ABRH-RS, foi Diretora de Gente&Gestão da Kepler Weber. Formada em administração de Empresas, com especialização em Gestão de Pessoas na FGV e mestre em Administração pela UFRGS.",
-    foto: FotoGilianeTrost,
+    foto: FotoMisiaraAlcantara,
     painel:
       "Palco A | Gente que Transforma: Talentos, RH   e Inclusão em Ambientes Inovadores",
     palcoDescricao:
@@ -496,7 +496,7 @@ export const palestrantes = [
     empresa: "Tromink",
     descricao:
       "Empresária e sócia da Tromink Industrial Ltda, atua como CEO da companhia, referência na fabricação de equipamentos para unidades armazenadoras de grãos e sistemista de componentes soldados para montadoras agrícolas. Graduada em Administração de Empresas, com MBA em Gestão de Pessoas e Estratégia Empresarial pela FGV e Mestrado em Administração pela UFRGS, iniciou sua trajetória na Tromink em 1993 como auxiliar administrativa e, ao longo de mais de três décadas, acompanhou e impulsionou o crescimento da empresa, consolidando-se como liderança estratégica que hoje está à frente da organização.",
-    foto: FotoMisiaraAlcantara,
+    foto: FotoGilianeTrost,
     painel:
       "Palco B | Empreendendo Fora do Eixo: A Força das Iniciativas Locais",
     palcoDescricao:
