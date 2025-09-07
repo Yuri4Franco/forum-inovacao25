@@ -804,25 +804,6 @@ export const palestrantes = [
     email: "",
   },
   {
-    nome: "Juliano Colombo",
-    cargo: "Consultor, Investidor e Palestrante",
-    empresa: "—",
-    descricao:
-      "Executivo com 25+ anos em gestão nas áreas de saúde e educação. Ex-Superintendente do SESI/RS. Atua em conselhos e projetos de educação, saúde e ESG. Especialista em liderança humanizada e futuro do trabalho.",
-    foto: FotoJulianoColombo,
-    painel:
-      "Palco A (Maior) | Educação & Inovação: não existe atalho para o futuro",
-    palcoDescricao: "",
-    bloco: "—", // Sessão especial entre blocos
-    horario: "16h30 – 17h00",
-    dia: "08",
-    mes: "SETEMBRO",
-    diaDaSemana: "SEGUNDA",
-    linkedin: "",
-    instagram: "",
-    email: "",
-  },
-  {
     nome: "Álvaro Alba",
     cargo: "Coordenador de Agricultura Digital",
     empresa: "3tentos",
