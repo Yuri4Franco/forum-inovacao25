@@ -31,6 +31,28 @@ import FotoAlexGranjeiro from "../assets/palestrantes/alex-granjeiro.png";
 import FotoAndreLautert from "../assets/palestrantes/andre-lautert.png";
 import FotoFelipeVieira from "../assets/palestrantes/felipe-vieira.png";
 import FotoNicolasRossetto from "../assets/palestrantes/nicolas-rossetto.png";
+import FotoDiegoBoelter from "../assets/palestrantes/diego-boelter.png";
+import FotoAngeloSchneider from "../assets/palestrantes/angelo-schneider.png";
+import FotoEduardoBreda from "../assets/palestrantes/eduardo-breda.png";
+import FotoEduardoSperb from "../assets/palestrantes/eduardo-sperb.png";
+import FotoRenataGrazziotin from "../assets/palestrantes/renata-grazziotin.png";
+import FotoLeandroLuza from "../assets/palestrantes/leandro-luza.png";
+import FotoDeniseKelm from "../assets/palestrantes/denise-kelm.png";
+import FotoAlvaroAlba from "../assets/palestrantes/alvaro-alba.png";
+import FotoSimoneRohrig from "../assets/palestrantes/simone-rohrig.png";
+import FotoFelipeDiesel from "../assets/palestrantes/felipe-diesel.png";
+import FotoFabianoSchneider from "../assets/palestrantes/fabiano-schneider.png";
+import FotoLuizKazan from "../assets/palestrantes/luiz-kazan.png";
+import FotoBrunoBastos from "../assets/palestrantes/bruno-bastos.png";
+import FotoRicardoKadota from "../assets/palestrantes/ricardo-kadota.png";
+import FotoEduardoChuaste from "../assets/palestrantes/eduardo-chuaste.png";
+import FotoLeonardoRopke from "../assets/palestrantes/leonardo-ropke.png";
+import FotoIsabelaDahmer from "../assets/palestrantes/isabela-dahmer.png";
+import FotoMarianeCandaten from "../assets/palestrantes/mariane-candaten.png";
+import FotoJoaoLorentz from "../assets/palestrantes/joao-lorentz.png";
+import FotoAndreaMussi from "../assets/palestrantes/andrea-mussi.png";
+import FotoCledisonFritzen from "../assets/palestrantes/cledison-fritzen.png";
+import FotoIvanaTaborda from "../assets/palestrantes/ivana-taborda.png";
 
 import type { Palestrante } from "./Types";
 
@@ -642,6 +664,453 @@ export const palestrantes = [
     mes: "SETEMBRO",
     diaDaSemana: "SEGUNDA",
     linkedin: "linkedin.com/in/nicolasrossetto",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Diego Boelter",
+    cargo: "Gerente de Inovação, Tecnologia e Estratégia",
+    empresa: "Cotripal",
+    descricao:
+      "Gerente de inovação, tecnologia e estratégia na Cotripal, coordenador do conselho técnico da plataforma SmartCoop, também atua como consultor, professor e pesquisador nas áreas de inovação, tecnologia e estratégia. Especialista em Gestão Estratégica do Agronegócio (ESCOOP) e Mestre em Gestão e Negócios (Unisinos). Especializações em liderança na inovação (Tel Aviv University) e IA/ML, com mais de 25 anos integrando tecnologia às estratégias de negócio.",
+    foto: FotoDiegoBoelter,
+    painel:
+      "Palco A (Maior) | Painel | Inteligência em Movimento: IA, Dados e Automação (Mediação)",
+    palcoDescricao:
+      "Transformações práticas com IA, gêmeos digitais, robotização e dados.",
+    bloco: "BLOCO 1 | ENTENDENDO O PRESENTE: O mundo já mudou",
+    horario: "14h00 – 15h00",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Ângelo Schneider",
+    cargo: "Coordenador de Saúde, Segurança e Meio Ambiente",
+    empresa: "SAUR Equipamentos S.A.",
+    descricao:
+      "Engenheiro Ambiental e de Segurança do Trabalho. Especialista em ergonomia e Mestre em Engenharia de Produção. Atua como coordenador de Saúde, Segurança e Meio Ambiente na SAUR.",
+    foto: FotoAngeloSchneider,
+    painel:
+      "Palco B (Menor) | Inovar com Propósito: Sustentabilidade e Resiliência Climática (Mediação)",
+    palcoDescricao:
+      "Soluções sustentáveis para prevenir desastres, otimizar recursos e inovar com impacto positivo.",
+    bloco: "BLOCO 1 | ENTENDENDO O PRESENTE: O mundo já mudou",
+    horario: "14h00 – 15h00",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Eduardo Breda",
+    cargo: "CEO",
+    empresa: "Bubuyog / Tibre Soluções Metálicas",
+    descricao:
+      "Engenheiro Mecânico (UCS), com mais de 20 anos na indústria e trajetória na Tibre Soluções Metálicas (Diretor Executivo e Acionista). Co-fundador e CEO da Bubuyog, ecossistema aberto para compra e venda de aços. Conselheiro FIERGS (CONLIDER e CITEC) e diretor regional do SIMECS.",
+    foto: FotoEduardoBreda,
+    painel: "Palco A (Maior) | Pitch Startup – Bubuyog",
+    palcoDescricao:
+      "Plataforma que conecta indústrias em um estoque de aços compartilhados.",
+    bloco: "BLOCO 1 | ENTENDENDO O PRESENTE: O mundo já mudou",
+    horario: "15h00 – 15h10",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Eduardo Sperb",
+    cargo: "Executivo de Entidade Empresarial (Mediação)",
+    empresa: "ACI",
+    descricao:
+      "Profissional com 19+ anos em Entidades Patronais, foco em gestão administrativa/financeira e desenvolvimento de lideranças. Formado em Ciências Contábeis, pós em Gestão Empresarial e Controladoria e Mestrado em Desenvolvimento Regional.",
+    foto: FotoEduardoSperb,
+    painel:
+      "Palco A (Maior) | Painel | Marcas que Conectam: O Cliente como Norte para Inovar e Crescer (Mediação)",
+    palcoDescricao:
+      "Como criar experiências encantadoras no digital e no físico: o cliente no centro.",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA: Aplicações práticas da inovação",
+    horario: "15h30 – 16h30",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Renata Grazziotin",
+    cargo: "Presidente",
+    empresa: "Grupo Grazziotin S.A.",
+    descricao:
+      "Executiva C-Level com trajetória consolidada no varejo e finanças, à frente de grupo empresarial diversificado. Reconhecida por visão estratégica e foco em inovação, aliando performance à valorização do capital humano.",
+    foto: FotoRenataGrazziotin,
+    painel:
+      "Palco A (Maior) | Painel | Marcas que Conectam: O Cliente como Norte para Inovar e Crescer",
+    palcoDescricao: "",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA: Aplicações práticas da inovação",
+    horario: "15h30 – 16h30",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Leandro Luza",
+    cargo: "Analista de Inovação",
+    empresa: "Sistema FIERGS",
+    descricao:
+      "Conecta indústrias, startups, universidades e governo em programas de inovação aberta, captação de recursos e novos negócios. Doutor em Química, 10+ anos com deep techs em materiais sustentáveis, energias renováveis, descarbonização e agro.",
+    foto: FotoLeandroLuza,
+    painel:
+      "Palco B (Menor) | Arena de Tecnologia: Inovação em Ação (Mediação)",
+    palcoDescricao: "Demonstração de tecnologias por empresas.",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA: Aplicações práticas da inovação",
+    horario: "15h30 – 16h30",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Denise Kelm",
+    cargo: "CEO",
+    empresa: "Mérito Engenharia de Software",
+    descricao:
+      "Formada em Ciências Contábeis, pós em Sistemas de Informação (UNIJUÍ) e certificação DBA Oracle. Ex-Gerente de TI da Unimed Noroeste; fundadora da Mérito (2006). Pioneira nacional em homologação Java (IntegraPosto – Software Express). Lidera transformação digital em grandes redes.",
+    foto: FotoDeniseKelm,
+    painel: "Palco B (Menor) | Arena de Tecnologia: Inovação em Ação – Talk 4",
+    palcoDescricao:
+      "Conectar para crescer: integrando sistemas para potencializar resultados em médias e grandes operações comerciais.",
+    bloco: "BLOCO 2 | RESOLVENDO O AGORA: Aplicações práticas da inovação",
+    horario: "15h30 – 16h30",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Juliano Colombo",
+    cargo: "Consultor, Investidor e Palestrante",
+    empresa: "—",
+    descricao:
+      "Executivo com 25+ anos em gestão nas áreas de saúde e educação. Ex-Superintendente do SESI/RS. Atua em conselhos e projetos de educação, saúde e ESG. Especialista em liderança humanizada e futuro do trabalho.",
+    foto: FotoJulianoColombo,
+    painel:
+      "Palco A (Maior) | Educação & Inovação: não existe atalho para o futuro",
+    palcoDescricao: "",
+    bloco: "—", // Sessão especial entre blocos
+    horario: "16h30 – 17h00",
+    dia: "08",
+    mes: "SETEMBRO",
+    diaDaSemana: "SEGUNDA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Álvaro Alba",
+    cargo: "Coordenador de Agricultura Digital",
+    empresa: "3tentos",
+    descricao:
+      "Engenheiro Agrônomo (UFSM/FW) e pós-graduado em IA e Big Data (PUC/PR). Foco em atendimento, processos de digitalização e experiência do cliente no agro.",
+    foto: FotoAlvaroAlba,
+    painel:
+      "Palco A (Maior) | Painel | O Agro do Amanhã: Eficiência, Sustentabilidade e Conectividade (Mediação)",
+    palcoDescricao:
+      "Soluções digitais, conectividade no campo e agricultura regenerativa.",
+    bloco: "BLOCO 2 (continuação) | RESOLVENDO O AGORA",
+    horario: "09h00 – 10h15",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Simone Rohrig",
+    cargo: "Gerente de DHO",
+    empresa: "Cotrijal",
+    descricao:
+      "Responsável por Seleção, Remuneração, Desenvolvimento, Cultura e Clima para +2.700 colaboradores. Lidera GMO na implementação do SAP. Graduada em Ciências Contábeis, especialista em RH, formação em Dinâmica dos Grupos, Design Organizacional, Coaching e Mentoria.",
+    foto: FotoSimoneRohrig,
+    painel:
+      "Palco A (Maior) | Painel | Gente que Transforma: Talentos, RH e Inclusão em Ambientes Inovadores",
+    palcoDescricao:
+      "Soluções para recrutamento, formação e engajamento de talentos nos territórios.",
+    bloco: "BLOCO 3 | TRANSFORMANDO PESSOAS: Inovação é feita de gente",
+    horario: "10h45 – 12h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Felipe Diesel",
+    cargo: "CEO",
+    empresa: "Escola de Negócios | GH",
+    descricao:
+      "Empreendedor com 20+ anos em educação. Fundador do Yours Bank; ex-Head de Inovação da Atmo Educação. Executive Program (Singularity), MBA em Negócios Exponenciais (Nova de Lisboa), pós em Gestão (FGV). Finalista global Meet the Drapers; vencedor de startup no South Summit.",
+    foto: FotoFelipeDiesel,
+    painel:
+      "Palco A (Maior) | Painel | Gente que Transforma: Talentos, RH e Inclusão em Ambientes Inovadores",
+    palcoDescricao: "",
+    bloco: "BLOCO 3 | TRANSFORMANDO PESSOAS: Inovação é feita de gente",
+    horario: "10h45 – 12h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Fabiano Schneider",
+    cargo: "Diretor Industrial & Produto",
+    empresa: "Kepler Weber",
+    descricao:
+      "Executivo industrial responsável pela moderação do painel sobre energias e combustíveis do futuro.",
+    foto: FotoFabianoSchneider,
+    painel:
+      "Palco A (Maior) | Energia Verde: Inovação e Sustentabilidade nos Combustíveis do Futuro (Moderação)",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "13h30 – 14h30",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Luiz Kazan",
+    cargo:
+      "Head de Estratégia de Novas Soluções – Smart Cities e Indústria 4.0",
+    empresa: "Claro Empresas / BeOn",
+    descricao:
+      "Eng. Elétrica (FACENS), MBA em Digital Business (FIAP) e Gestão e Inovação em Cidades Inteligentes (FACENS). Membro do comitê de Cidades Inteligentes da ABINC. 25 anos em tecnologia e inovação em Telecom e TI.",
+    foto: FotoLuizKazan,
+    painel:
+      "Palco B (Menor) | Roda de Conversa | Cidades Inteligentes, Inclusivas e Digitais",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "13h30 – 14h30",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Bruno Bastos",
+    cargo: "Especialista em Startups",
+    empresa: "South Summit Brazil",
+    descricao:
+      "Mestre e Doutorando em Gestão e Negócios. Especialista em Gestão Empresarial com foco em Finanças. Ex-Presidente da Associação Gaúcha de Startups; atuou nos conselhos de inovação do RS e de Porto Alegre.",
+    foto: FotoBrunoBastos,
+    painel:
+      "Palco A (Maior) | Do Casulo à Conexão: Inovação que Transforma Setores (Mediação)",
+    palcoDescricao:
+      "Startups, projetos acadêmicos e intraempreendedores – dinâmica de indústria e agro.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Ricardo Kadota",
+    cargo: "CEO / Gerente de Projetos",
+    empresa: "Automasensor",
+    descricao:
+      "Gerente de Projetos, administrador, pesquisador, inventor, ex-CTO de multinacional e gerente industrial. Técnico em Eletrônica, graduado em Administração e especialista em Engenharia de Produção.",
+    foto: FotoRicardoKadota,
+    painel:
+      "Palco A (Maior) | Do Casulo à Conexão – Oportunidades no South Summit 2026: Automasensor",
+    palcoDescricao: "Medição e controle de processos industriais.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Eduardo Chuaste",
+    cargo: "Head de Negócios e Relacionamento",
+    empresa: "Growdev",
+    descricao:
+      "Profissional com 25+ anos no mercado de tecnologia e na evolução de negócios digitais. Atuação em gestão de TI, soluções, desenvolvimento e sustentação.",
+    foto: FotoEduardoChuaste,
+    painel:
+      "Palco A (Maior) | Do Casulo à Conexão – Oportunidades no South Summit 2026: Growdev",
+    palcoDescricao:
+      "Projetos com IA, Dados, IoT, Mobile Apps e soluções digitais alinhadas ao negócio.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Leonardo Luís Röpke",
+    cargo: "CEO & CTO",
+    empresa: "Infratrack",
+    descricao:
+      "Mestre em Computação Aplicada (UFSM), professor e coordenador do curso de Engenharia de Computação (Setrem). Experiência em IoT, telemetria e inovação aplicada ao setor produtivo.",
+    foto: FotoLeonardoRopke,
+    painel:
+      "Palco A (Maior) | Do Casulo à Conexão – Oportunidades no South Summit 2026: Infratrack",
+    palcoDescricao:
+      "Soluções em rastreamento para gestão de frotas, equipes de campo e operações logísticas.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Isabela Dahmer",
+    cargo: "Gestora de Inovação e Tecnologia",
+    empresa: "INOVA RS",
+    descricao:
+      "Advogada e mestranda em Desenvolvimento Regional. Media a trilha de RH, comércio e serviços com foco em conexões entre soluções e mercado.",
+    foto: FotoIsabelaDahmer,
+    painel:
+      "Palco B (Menor) | Do Casulo à Conexão – Dinâmica: RH, Comércio e Serviços (Mediação)",
+    palcoDescricao: "",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Mariane Brusa Da Costa Candaten",
+    cargo: "Fundadora e CEO",
+    empresa: "TellUs: Inovação Humana",
+    descricao:
+      "Psicóloga, especialista em saúde mental, fatores psicossociais e psicologia positiva. 20+ anos em educação corporativa e desenvolvimento de pessoas. Transforma ciência em estratégia para culturas organizacionais saudáveis e sustentáveis.",
+    foto: FotoMarianeCandaten,
+    painel: "Palco B (Menor) | Do Casulo à Conexão – TELLUS: inovação humana",
+    palcoDescricao:
+      "Hub de soluções para saúde mental, felicidade no trabalho e culturas seguras e sustentáveis.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "João Gabriel Lorentz",
+    cargo: "Founder",
+    empresa: "Chat On Cloud / Hybrid / Contrata Aí",
+    descricao:
+      "Empreendedor em soluções de vendas e comunicação. Integra chatbots e IA para transformar atendimento e centralizar interações em um painel inteligente.",
+    foto: FotoJoaoLorentz,
+    painel: "Palco B (Menor) | Do Casulo à Conexão – Chat On Cloud",
+    palcoDescricao:
+      "Plataforma para centralizar interações de clientes e colaboradores.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Andréa Mussi",
+    cargo: "CEO",
+    empresa: "Missão Criativa (Edtech)",
+    descricao:
+      "Doutora em Arquitetura, Professora na Atitus. Pós-doutora (Laspau/Harvard) em aprendizagem baseada em projetos. Pesquisadora CNPq, acelerada por BRDE Labs, SebraeX, AWE 4.0; Top 10 Brilla Latam; 1º lugar em Tecnologia Social (Fundação BB).",
+    foto: FotoAndreaMussi,
+    painel: "Palco B (Menor) | Do Casulo à Conexão – Missão Criativa",
+    palcoDescricao:
+      "Soluções para crianças e adolescentes desenvolverem criatividade, soft e hard skills com projetos e tecnologias imersivas.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Cledison Fritzen",
+    cargo: "CEO / Co-founder",
+    empresa: "ZenFisio / GoTrampo",
+    descricao:
+      "Formação em Tecnologia e MBA em Marketing com Ênfase em Vendas (FGV). Atuação em desenvolvimento de sistemas, marketing e vendas para negócios digitais.",
+    foto: FotoCledisonFritzen,
+    painel: "Palco B (Menor) | Do Casulo à Conexão – GoTrampo",
+    palcoDescricao:
+      "Plataforma para busca, atração e seleção de profissionais com agilidade e eficiência.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "14h50 – 16h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
+    instagram: "",
+    email: "",
+  },
+  {
+    nome: "Ivana Taborda",
+    cargo: "Liderança",
+    empresa: "Grupo Facorsa S.A.",
+    descricao:
+      "Liderança no grupo metalúrgico de Santa Fe (AR) com atuação em marketing, relações institucionais e estratégia. Referência no movimento industrial jovem, atuando em UISF, ADIMRA e UIA nas pautas de formação técnica, liderança feminina e desenvolvimento federal.",
+    foto: FotoIvanaTaborda,
+    painel:
+      "Palco A (Maior) | Painel | Visões do Futuro: Tendências, Conexões e Novas Economias",
+    palcoDescricao:
+      "Debate sobre futuros possíveis, novas economias e o papel da região no cenário global.",
+    bloco: "BLOCO 4 | CONSTRUINDO O AMANHÃ: Conexões e futuros desejados",
+    horario: "16h00 – 17h00",
+    dia: "09",
+    mes: "SETEMBRO",
+    diaDaSemana: "TERÇA",
+    linkedin: "",
     instagram: "",
     email: "",
   },

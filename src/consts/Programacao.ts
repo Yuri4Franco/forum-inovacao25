@@ -19,7 +19,7 @@ export const programacao = [
             ],
           },
           {
-            horario: "13h00 – 17h00",
+            horario: "13h00 – 18h00",
             palcos: [
               {
                 titulo: "Exposição das empresas",
@@ -50,7 +50,17 @@ export const programacao = [
             ],
           },
           {
-            horario: "15h00 – 15h30",
+            horario: "15h00 – 15h10",
+            palcos: [
+              {
+                titulo: "PALCO A | Pitch da Startup Bubuyog",
+                descricao:
+                  "",
+              },
+            ],
+          },
+          {
+            horario: "15h10 – 15h30",
             palcos: [
               {
                 titulo: "Intervalo com Experiências e Exposições",
@@ -91,7 +101,7 @@ export const programacao = [
             horario: "17h00 – 18h00",
             palcos: [
               {
-                titulo: "Keynote Speaker",
+                titulo: "Hackeando o futuro com IA",
                 descricao: "",
               },
             ],
