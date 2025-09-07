@@ -53,9 +53,8 @@
   align-items: center;
   color: #ffffff;
   border-radius: 1rem;
-  padding: 1.5rem 2rem;
   margin: 0 auto 2rem;
-  max-width: 420px;
+  max-width: 100%;
 }
 
 .hero-ingressos span {
@@ -80,6 +79,7 @@
   font-weight: normal;
   letter-spacing: 0.05em;
   line-height: 0.8;
+  text-align: center;
 }
 
 .hero-call {
@@ -171,5 +171,9 @@
 
   .hero-ingressos h2 {
     font-size: 4rem;
+  }
+
+  .hero-ingressos{
+    max-width: 50%;
   }
 }
