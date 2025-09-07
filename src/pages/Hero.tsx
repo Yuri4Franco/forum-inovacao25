@@ -1,6 +1,6 @@
 import "./Hero.css";
 import logo from "../assets/logos/logo-footer.png";
-import { BsPinMapFill } from "react-icons/bs";
+import ProgramacaoPDF from "../assets/participante/programacao-oficial.pdf";
 
 function Hero() {
   return (
@@ -17,15 +17,12 @@ function Hero() {
       </div>
       <div>
         <div className="hero-ingressos">
-          <span>1º LOTE</span>
-          <h2>INGRESSOS</h2>
-          <h2>LIBERADOS</h2>
+          <h2>PROGRAMAÇÃO OFICIAL DISPONÍVEL</h2>
         </div>
         <div className="hero-call">
-          <h2>
-            <BsPinMapFill /> Afucopal - Panambi/RS
-          </h2>
-          <a target="_blank" rel="noreferrer" href="https://www.sympla.com.br/evento/3-forum-de-inovacao/3042419" >GARANTA SEU INGRESSO</a>
+          <a download href={ProgramacaoPDF}>
+            BAIXAR PROGRAMAÇÃO
+          </a>
         </div>
       </div>
     </div>
